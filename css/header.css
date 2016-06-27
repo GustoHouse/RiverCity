@@ -1,0 +1,43 @@
+header {
+	width: 100%;
+	float: left;
+}
+
+header .time-bar {
+	width: 100%;
+	float: left;
+	background-color: #8c4035;
+	text-align: center;
+	padding: 13px 0;
+	margin-bottom: 30px;
+}
+
+header .time-bar p {
+	color: white;
+	font-weight: 600;
+	display: inline-block;
+}
+
+header .nav {
+	width: 100%;
+	float: left;
+}
+
+header .nav .logo {
+	float: left;
+	margin-right: 30px;
+}
+
+header .nav .location {
+	float: right;
+}
+
+header .nav .location a {
+	text-decoration: none;
+	color: #8b4037;
+	font-weight: 600;
+}
+
+header .nav .location a.phone {
+	font-weight: 900;
+}
