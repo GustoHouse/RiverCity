@@ -7,7 +7,31 @@
         <strong>HARDWOOD</strong>
     </a>
     <div class="fc-products">
+        <a class="fc-product">
         
+        </a>
+        <a class="fc-product">
+        
+        </a>
+        <a class="fc-product">
+        
+        </a>
+        <a class="fc-product">
+        
+        </a>
+        <a class="fc-product">
+        
+        </a>
+        <a class="fc-product">
+        
+        </a>
+        <a class="fc-product">
+        
+        </a>
+        <a class="fc-product">
+        
+        </a>
+        <div style="clear:both"></div>
     </div>
 </div>
 
