@@ -2,34 +2,45 @@
 
 <!-- FEATURED CATEGORY -->
 <div class="fc">
-    <a class="fc-name">
-        <span>SHOP</span>
-        <strong>HARDWOOD</strong>
+    <a href="" class="fc-name" style="background-image:url(images/cat.png);">
+        <span>SHOP <strong>HARDWOOD</strong></span>
+        <img class="arrow" src="images/arrow.svg" />
     </a>
     <div class="fc-products">
-        <a class="fc-product">
-        
+        <a href="" class="fc-product">
+            <strong>Natural Red</strong>
+            <img class="fc-product-image" src="images/wood1.png" />
         </a>
-        <a class="fc-product">
-        
+        <a href="" class="fc-product">
+            <strong>Gunstock</strong>
+            <img class="fc-product-image" src="images/wood2.png" />
+            <img class="stock" src="images/stock.svg" />
         </a>
-        <a class="fc-product">
-        
+        <a href="" class="fc-product">
+            <strong>Natural White</strong>
+            <img class="fc-product-image" src="images/wood3.png" />
         </a>
-        <a class="fc-product">
-        
+        <a href="" class="fc-product">
+            <strong>Shadow</strong>
+            <img class="fc-product-image" src="images/wood4.png" />
         </a>
-        <a class="fc-product">
-        
+        <a href="" class="fc-product">
+            <strong>Butterscotch</strong>
+            <img class="fc-product-image" src="images/wood5.png" />
+            <img class="stock" src="images/stock.svg" />
         </a>
-        <a class="fc-product">
-        
+        <a href="" class="fc-product">
+            <strong>Cherry Oak</strong>
+            <img class="fc-product-image" src="images/wood6.png" />
         </a>
-        <a class="fc-product">
-        
+        <a href="" class="fc-product">
+            <strong>Chestnut</strong>
+            <img class="fc-product-image" src="images/wood7.png" />
+            <img class="stock" src="images/stock.svg" />
         </a>
-        <a class="fc-product">
-        
+        <a href="" class="fc-product">
+            <strong>Maple Pine</strong>
+            <img class="fc-product-image" src="images/wood8.png" />
         </a>
         <div style="clear:both"></div>
     </div>
