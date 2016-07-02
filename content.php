@@ -61,8 +61,12 @@
 
 <div class="margin split-content">
 
-    <div class="left brown">
+    <div class="left lightbrown">
     
+        <h2></h2>
+        
+        <p></p>
+        
     </div>
     
     <div class="right">
