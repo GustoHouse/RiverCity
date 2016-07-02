@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <!-- FEATURED CATEGORY -->
-<div class="fc">
+<div class="margin fc">
     <a href="" class="fc-name" style="background-image:url(images/cat.png);">
         <span>SHOP <strong>HARDWOOD</strong></span>
         <img class="arrow" src="images/arrow.svg" />
@@ -44,6 +44,31 @@
         </a>
         <div style="clear:both"></div>
     </div>
+</div>
+
+<div class="margin open-content">
+    
+    <div class="text">
+    
+        <h1>Louisville’s Complete Flooring Specialists</h1>
+        <p>Since 1997, RiverCity Flooring has been a trusted name in Louisville for hardwood floors. We have expanded our product line to include carpet,  luxury vinyl tile and laminate. To support our growth, we have added several experienced members to our team.</p>
+
+        <p>We are widely recognized for our pre-finished hardwoods in a wide range of colors and species, including those by Bruce, Armstrong, Johnson, Anderson and Bella Cera.</p>
+        
+    </div>
+    
+</div>
+
+<div class="margin split-content">
+
+    <div class="left brown">
+    
+    </div>
+    
+    <div class="right">
+    
+    </div>
+    
 </div>
 
 <?php include('footer.php'); ?>
