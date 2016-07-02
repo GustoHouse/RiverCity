@@ -21,12 +21,35 @@ header .time-bar p {
 header .nav {
 	width: 100%;
 	float: left;
-    padding:0 60px;
+  padding:0 60px;
+  position: relative;
 }
 
 header .nav .logo {
 	float: left;
-	margin-right: 30px;
+	margin: 10.5px 30px 10.5px 0;
+}
+
+header .nav .main-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+}
+
+header .nav .main-menu li {
+	float: left;
+	margin: 0 15px;
+}
+
+header .nav .main-menu li a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	font-size: 15px;
 }
 
 header .nav .location {
@@ -42,3 +65,4 @@ header .nav .location a {
 header .nav .location a.phone {
 	font-weight: 900;
 }
+

@@ -14,7 +14,15 @@
 			<p></p>
 		</div><!-- end .hour-bar -->
 		<div class="nav">
-			<a class="logo" href="/"><img src="images/logo.png"/></a>
+			<a class="logo" href="/"><img src="images/logo.png"/></a>	
+			<ul class="main-menu">
+				<li><a href="#">Refinishing</a></li>
+				<li><a href="#">Hardwood</a></li>
+				<li><a href="#">Wall Wood</a></li>
+				<li><a href="#">Carpet</a></li>
+				<li><a href="#">Laminate</a></li>
+				<li><a href="#">Vinyl Planks & Tile</a></li>
+			</ul>
 			<div class="location">
 				<a class="address" href="#">2201 Plantside Dr.<br/>Louisville, KY 40299</p>
 				<a class="phone" href="tel:5022618233">502.261.8233</a>
