@@ -8,10 +8,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 <body>
+	
+	<div class="quick-action">
+		<a class="phone" href="tel:5022618233"><span>Call Us</span></a>
+		<a class="address" href="#"><span>Map Us</span></a>
+	</div>
     
 	<header>
 		<div class="time-bar">
-			<p></p>
+			<p class="time"></p>
 		</div><!-- end .hour-bar -->
 		<div class="nav">
 			<a class="logo" href="/"><img src="images/logo.png"/></a>	
@@ -21,10 +26,10 @@
 				<li><a href="#">Wall Wood</a></li>
 				<li><a href="#">Carpet</a></li>
 				<li><a href="#">Laminate</a></li>
-				<li><a href="#">Vinyl Planks & Tile</a></li>
+				<li><a href="#">Vinyl</a></li>
 			</ul>
 			<div class="location">
-				<a class="address" href="#">2201 Plantside Dr.<br/>Louisville, KY 40299</p>
+				<a class="address" href="#">2201 Plantside Dr.<br/>Louisville, KY 40299</a>
 				<a class="phone" href="tel:5022618233">502.261.8233</a>
 			</div>
 		</div><!-- end .nav -->
@@ -41,6 +46,6 @@
 									"Yay, Today is Friday. We're open from 10am till 5pm.",
 									"Today is Saturday. We're open from 10am till 4pm."];
 			var todaysHours = hours[dayOfWeek];
-			$( "header .time-bar p" ).html(todaysHours);
+			$( "header .time-bar p.time" ).html(todaysHours);
 		});
 	</script>

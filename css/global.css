@@ -23,7 +23,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font: 100%/150%;
-	letter-spacing: 1.3px!important;
+	letter-spacing: 1px!important;
 	font-family: 'Open Sans', sans-serif;
 	vertical-align: baseline;
 	-webkit-font-smoothing: antialiased !important;

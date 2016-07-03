@@ -1,3 +1,50 @@
+.quick-action {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	display: block;
+}
+
+.quick-action a {
+	width: 50%;
+	height: 50px;
+	float: left;
+	background-color: #8c4035;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+
+.quick-action a span {
+	display: inline-block;
+}
+
+.quick-action a:first-of-type {
+	border-right: 1px solid #5b2a25;
+}
+
+.quick-action a:last-of-type {
+	border-left: 1px solid #5b2a25;
+}
+
+.quick-action a:first-of-type span {
+	background-image: url(../images/icon-phone.svg);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	padding-left: 25px;
+}
+
+.quick-action a:last-of-type span {
+	background-image: url(../images/icon-map.svg);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	padding-left: 25px;
+}
+
 header {
 	width: 100%;
 	float: left;
@@ -9,60 +56,162 @@ header .time-bar {
 	background-color: #8c4035;
 	text-align: center;
 	padding: 13px 0;
-	margin-bottom: 30px;
+	position: relative;
 }
 
 header .time-bar p {
 	color: white;
 	font-weight: 600;
 	display: inline-block;
+	font-size: 13px;
 }
 
 header .nav {
 	width: 100%;
 	float: left;
+	margin-top: 15px;
   padding:0 60px;
   position: relative;
 }
 
 header .nav .logo {
-	float: left;
-	margin: 10.5px 30px 10.5px 0;
+  margin: 10.5px auto 10.5px auto;
+	width: 200px;
+	display: block;
+}
+
+header .nav .logo img {
+	width: 100%;
 }
 
 header .nav .main-menu {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate3d(-50%, -50%, 0);
 }
 
 header .nav .main-menu li {
 	float: left;
-	margin: 0 15px;
+	line-height: 45px;
+	width: 50%;
+	text-align: center;
+	border: 1px solid #8c4035;
 }
 
 header .nav .main-menu li a {
 	text-decoration: none;
-	color: black;
+	color: #8c4035;
+	width: 100%;
+	display: block;
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 13px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.5s all ease;
+}
+
+header .nav .main-menu li a:hover{
+	color: white;
+	background-color: #8c4035;
 }
 
 header .nav .location {
 	float: right;
+	font-size: 12px;
+	display: none;
 }
 
 header .nav .location a {
 	text-decoration: none;
 	color: #8b4037;
 	font-weight: 600;
+	display: block;
 }
 
 header .nav .location a.phone {
 	font-weight: 900;
 }
 
+@media (min-width: 400px) {
+	
+	header .nav .main-menu li {
+		width: 33.33%;
+	}
+	
+}
+
+@media (min-width: 960px) {
+
+	.quick-action {
+		display: none;
+	}
+	
+	header .nav .logo {
+		width: 175px;
+		float: left;
+		margin-right: 15px;
+	}
+	
+	header .time-bar p {
+		font-size: 15px;
+	}
+	
+	header .nav .location {
+		display: block;
+	}
+	
+	header .nav .main-menu li {
+		width: auto;
+		border: none;
+		margin: 0 9px;
+	}
+	
+	header .nav .main-menu li a {
+		background-color: transparent;
+		display: inline;
+	}
+	
+	header .nav .main-menu li a:hover {
+		color: #8c4035;
+		background-color: transparent;
+	}
+	
+	header .nav .main-menu li a:after {
+		position: absolute;
+		bottom: -6px;
+		left: 0;
+		content: "";
+		width: 100%;
+		height: 3px;
+		background-color: #8c4035;
+		opacity: 0;
+		transform: translate3d(0,10px,0);
+		transition: 0.5s ease all;
+	}
+	
+	header .nav .main-menu li a:hover:after {
+		opacity: 1;
+		transform: translate3d(0,0px,0);
+	}
+
+}
+
+
+@media (min-width: 1170px) {
+	
+	header .nav .logo {
+		margin: 10.5px 30px 10.5px 0;
+		width: 215px;
+	}
+	
+	header .nav .main-menu li {
+		margin: 0 15px;
+	}
+	
+	header .nav .main-menu li a,
+	header .nav .location {
+		font-size: 15px;
+	}
+	
+}
+ 
