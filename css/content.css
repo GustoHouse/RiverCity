@@ -113,14 +113,73 @@
     margin: 0 auto;
 }
 
+.split-content p,
 .open-content p {
     margin-top: 20px;
     font-size:16px;
     line-height:24px;
 }
 
-.open-content h1 {
+.open-content h1,
+.split-content h2{
     font-size: 35px;
     font-weight: 400;
     line-height:45px;
+}
+
+
+
+
+
+/* SPLIT CONTENT */
+
+.split-content .left, 
+.split-content .right {
+    padding: 60px;
+    width: 50%;
+    display:block;
+    text-decoration: none;
+    position: relative;
+    border-left:2px solid #fff;
+    border-right:2px solid #fff;
+}
+
+.split-content .arrow{
+    bottom:15px;
+    right:15px;
+}
+
+.split-content .left.text {
+    float: left;
+}
+
+.split-content .right.text {
+    float:right;
+}
+
+.split-content .text{
+    padding-right:100px;
+}
+
+.split-content .left.image{
+    position: absolute;
+    left:0px;
+    top:0px;
+    height:100%;
+}
+
+.split-content .right.image {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+}
+
+.split-content {
+    position: relative;
+}
+
+.split-content .image {
+    background-size: cover;
+    background-position: bottom;
 }

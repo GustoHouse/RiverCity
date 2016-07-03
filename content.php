@@ -61,17 +61,39 @@
 
 <div class="margin split-content">
 
-    <div class="left lightbrown">
+    <a href="" class="left text lightbrown">
     
         <h2>Carpet Selection</h2>
         
         <p>Our carpet selection features, but is not limited to, the comfortable and luxurious textures by Mohawk and Beaulieu and Shaw Carpets.</p>
         
+        <img class="arrow" src="images/arrow.svg" />
+        
+    </a>
+    
+    <div class="right image" style="background-image:url(images/cat.png);">
+    
     </div>
     
-    <div class="right">
-    
+</div>
+
+<div class="margin split-content">
+
+    <div class="left image" style="background-image:url(images/cat.png);">
+        
     </div>
+    
+    <a href="" class="right text burgundy">
+    
+        <h2>Rivery City Flooring</h2>
+        
+        <p>Since 1997, RiverCity Flooring has been a trusted name in Louisville for hardwood floors. We have expanded our product line to include carpet,  luxury vinyl tile and laminate. To support our growth, we have added several experienced members to our team.</p>
+        
+        <p>We are widely recognized for our pre-finished hardwoods in a wide range of colors and species, including those by Bruce, Armstrong, Johnson, Anderson and Bella Cera.</p>
+        
+        <img class="arrow" src="images/arrow.svg" />
+        
+    </a>
     
 </div>
 
