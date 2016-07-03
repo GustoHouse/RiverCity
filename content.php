@@ -63,9 +63,9 @@
 
     <div class="left lightbrown">
     
-        <h2></h2>
+        <h2>Carpet Selection</h2>
         
-        <p></p>
+        <p>Our carpet selection features, but is not limited to, the comfortable and luxurious textures by Mohawk and Beaulieu and Shaw Carpets.</p>
         
     </div>
     
