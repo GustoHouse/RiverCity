@@ -3,6 +3,7 @@
 	position: fixed;
 	bottom: 0;
 	display: block;
+	z-index: 999;
 }
 
 .quick-action a {
@@ -75,7 +76,7 @@ header .nav {
 }
 
 header .nav .logo {
-  margin: 10.5px auto 10.5px auto;
+  margin: 20.5px auto 30.5px auto;
 	width: 200px;
 	display: block;
 }
@@ -95,24 +96,24 @@ header .nav .main-menu li {
 	line-height: 45px;
 	width: 50%;
 	text-align: center;
-	border: 1px solid #8c4035;
+	border: 1px solid white;
 }
 
 header .nav .main-menu li a {
 	text-decoration: none;
-	color: #8c4035;
+	color: white;
 	width: 100%;
 	display: block;
 	font-weight: 600;
 	font-size: 13px;
 	position: relative;
-	background-color: transparent;
+	background-color: #ad986f;
 	transition: 0.5s all ease;
 }
 
 header .nav .main-menu li a:hover{
-	color: white;
-	background-color: #8c4035;
+	color: #8c4035;
+	background-color: transparent;
 }
 
 header .nav .location {

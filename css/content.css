@@ -204,6 +204,64 @@
     background-position: bottom;
 }
 
+.three-column-cta {
+	background-image: url(../images/three-column-cta-bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding: 4%;
+}
+
+.three-column-cta .container {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.three-column-cta a.box {
+	width: 25.33%;
+	max-width: 330px;
+	margin: 0 4%;
+	float: left;
+	position: relative;
+	padding: 30px 30px 60px;
+	text-decoration: none;
+	color: white;
+}
+
+.three-column-cta a.box.box-tan {
+	background-color: #cca56c;
+}
+
+.three-column-cta a.box.box-dark-tan {
+	background-color: #ac9872;
+}
+
+.three-column-cta a.box.box-red {
+	background-color: #8b4037;
+}
+
+.three-column-cta a.box .sub-text {
+	display: block;
+	text-transform: uppercase;
+}
+
+.three-column-cta a.box .main-title {
+	
+}
+
+.three-column-cta a.box p {
+	margin-top: 15px;
+	margin-bottom: 72px;
+	font-size: 14px;
+}
+
+.three-column-cta a.box img {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	right: 15px;
+	bottom: 15px;
+}
 
 
 
