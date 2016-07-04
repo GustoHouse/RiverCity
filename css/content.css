@@ -22,6 +22,8 @@
     background-position: bottom center;
 }
 
+.banner-main:after,
+.banner-main::after,
 .fc-name:after,
 .fc-name::after{
     content:'';
@@ -103,16 +105,26 @@
     width:90%;
 }
 
+
+
+
+
+
+/* OPEN CONTENT */
+
+
+
 .open-content {
 
 }
 
 .open-content .text {
     width: 100%;
-    max-width: 750px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
+.banner p,
 .split-content p,
 .open-content p {
     margin-top: 20px;
@@ -120,11 +132,19 @@
     line-height:24px;
 }
 
+.banner h1,
+.banner h2,
 .open-content h1,
 .split-content h2{
     font-size: 35px;
     font-weight: 400;
     line-height:45px;
+    text-transform: uppercase;
+}
+
+.open-content h1,
+.open-content h2{
+    color:#8c4035;
 }
 
 
@@ -183,3 +203,119 @@
     background-size: cover;
     background-position: bottom;
 }
+
+
+
+
+/* BANNER */
+
+.banner {
+    height: 750px;
+    position: relative;
+    background:transparent;
+}
+
+.banner a{
+    display:block;
+    color:#fff;
+    text-decoration: none;
+}
+
+.banner-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background:#eee;
+    border:2px solid #fff;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.banner-main h1{
+    font-size:60px;
+    line-height:72px;
+}
+
+.banner-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50%;
+    width: 30%;
+    border:2px solid #fff;
+}
+
+.banner-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 50%;
+    border:2px solid #fff;
+}
+
+.banner-main-info {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 80%;
+    padding: 45px;
+    z-index: 2;
+}
+
+.banner-side-info {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 30px;
+    width: 80%;
+}
+
+.banner .arrow {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+@media screen and (max-width: 1281px) {
+
+    .banner{
+        height:600px;
+    }
+    
+}
+
+@media screen and (max-width: 1171px) {
+
+    .banner-main{
+        width:60%;
+    }
+    
+    .banner-top,
+    .banner-bottom{
+        width:40%;
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+    
+    .banner{
+        height:auto;
+    }
+    
+    .banner a{
+        position: relative;
+        width:100%;
+        height:auto;
+    }
+    
+    .banner-main-info,
+    .banner-side-info{
+        position: relative;
+    }
+    
+}
+

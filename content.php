@@ -1,5 +1,51 @@
 <?php include('header.php'); ?>
 
+
+
+<!-- HOME BANNER -->
+
+<div class="margin banner">
+    <a href="" class="banner-main" style="background-image:url(images/cat.png)">
+    
+        <div class="banner-main-info">
+        
+            <h1>This is the<br /><strong>banner headline</strong></h1>
+
+            <p>Since 1997, RiverCity Flooring has been a trusted name in Louisville for hardwood floors. We have expanded our product line to include carpet,  luxury vinyl tile and laminate. </p>
+            
+        </div>
+        
+    </a>
+    <a href="" class="banner-top brown">
+        
+        <div class="banner-side-info">
+    
+            <h2><strong>Free</strong> Estimate</h2>
+
+            <p>Ready to get started? Contact us now for a free quote.</p>
+            
+        </div>
+        
+        <img class="arrow" src="images/arrow.svg" />
+        
+    </a>
+    <a href="" class="banner-bottom burgundy">
+        
+        <div class="banner-side-info">
+    
+            <h2>Current <strong>Specials</strong></h2>
+
+            <p>Warehouse Specials $2.99 to $4.99 Solids, Engineered, Waterproof Floors</p>
+            
+        </div>
+
+        <img class="arrow" src="images/arrow.svg" />
+        
+    </a>
+</div>
+
+
+
 <!-- FEATURED CATEGORY -->
 <div class="margin fc">
     <a href="" class="fc-name" style="background-image:url(images/cat.png);">
@@ -50,7 +96,7 @@
     
     <div class="text">
     
-        <h1>Louisville’s Complete Flooring Specialists</h1>
+        <h1>Louisville’s Complete <strong>Flooring Specialists</strong></h1>
         <p>Since 1997, RiverCity Flooring has been a trusted name in Louisville for hardwood floors. We have expanded our product line to include carpet,  luxury vinyl tile and laminate. To support our growth, we have added several experienced members to our team.</p>
 
         <p>We are widely recognized for our pre-finished hardwoods in a wide range of colors and species, including those by Bruce, Armstrong, Johnson, Anderson and Bella Cera.</p>
@@ -63,7 +109,7 @@
 
     <a href="" class="left text lightbrown">
     
-        <h2>Carpet Selection</h2>
+        <h2><strong>Carpet</strong> Selection</h2>
         
         <p>Our carpet selection features, but is not limited to, the comfortable and luxurious textures by Mohawk and Beaulieu and Shaw Carpets.</p>
         
@@ -85,7 +131,7 @@
     
     <a href="" class="right text burgundy">
     
-        <h2>Rivery City Flooring</h2>
+        <h2>Rivery City <strong>Flooring</strong></h2>
         
         <p>Since 1997, RiverCity Flooring has been a trusted name in Louisville for hardwood floors. We have expanded our product line to include carpet,  luxury vinyl tile and laminate. To support our growth, we have added several experienced members to our team.</p>
         
