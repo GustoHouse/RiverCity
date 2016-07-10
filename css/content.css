@@ -587,8 +587,9 @@ a.fc-product::before {
 	.logo-grid a {
 		width: 25%;
 	}
-	
-=======
+
+}
+
 
 
 /* DIVIDER */
@@ -620,6 +621,4 @@ a.fc-product::before {
     position:absolute;
     left:40%;
     top:9px;
-    z-index: 1;
->>>>>>> origin/master
 }
