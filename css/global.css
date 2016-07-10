@@ -80,3 +80,27 @@ time, mark, audio, video {
     background:#cfa85d;
     color:#fff;
 }
+
+.breadcrumbs {
+	margin: 30px 60px 0;
+}
+
+.breadcrumbs .prev {
+	float: left;
+	color: #636363;
+}
+
+.breadcrumbs .sep {
+	background-image: url(../images/breadcrumbs-arrow.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	width: 12px;
+	height: 22px;
+	margin: 0 10px;
+}
+
+.breadcrumbs .current {
+	float: left;
+	font-weight: bold;
+}

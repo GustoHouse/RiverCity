@@ -288,6 +288,78 @@ a.fc-product::before {
     text-decoration: underline;
 }
 
+.open-content ul {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.open-content img {
+	width: 100%;
+	height: auto;
+	margin: 20px auto 0;
+}
+
+.open-content h2 {
+	margin-top: 20px;
+}
+
+.open-content hr {
+	margin-top: 20px;
+}
+
+.open-content a {
+	color: #555555;
+}
+
+.open-content blockquote:before {
+  content: '"';
+  position: absolute;
+  top: 4px;
+  left: -30px;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.open-content blockquote {
+  margin-top: 30px;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 200;
+  position: relative;
+  text-indent: 30px
+}
+
+.open-content blockquote span {
+	font-style: normal;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.open-content .embed-youtube {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	margin-top: 30px;
+}
+
+.open-content .embed-youtube iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;	
+}
+
+.open-content .embed-contact-form iframe {
+	height: 730px;
+	margin-top: 20px;
+}
+
+.open-content iframe *.zc-formcontent {
+	box-shadow: none!important;
+}
+
 @media screen and (max-width: 960px) {
     
     .split-content .left.text,
@@ -550,13 +622,15 @@ a.fc-product::before {
 
 /*** Logo Grid ***/ 
 
-.logo-grid span {
+.logo-grid span,
+.simple-product-grid .title {
 	display: block;
 	margin-bottom: 30px;
 	font-size: 30px;
 }
 
-.logo-grid span strong {
+.logo-grid span strong,
+.simple-product-grid .title strong {
 	display: block;
 }
 

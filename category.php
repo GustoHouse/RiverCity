@@ -1,5 +1,11 @@
 <?php include('header.php'); ?>
 
+<div class="margin breadcrumbs">
+	<a class="prev" href="#">Home</a>
+	<span class="sep"></span>
+	<span class="current">Hardwood Floors</a>
+</div>
+
 <div class="margin cat-runner" style="background-image:url(images/three-column-cta-bg.jpg);">
 	
 </div>
