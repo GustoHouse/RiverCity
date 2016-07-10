@@ -67,6 +67,13 @@ header .time-bar p {
 	font-size: 13px;
 }
 
+.time-bar a {
+    color: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
 header .nav {
 	width: 100%;
 	float: left;

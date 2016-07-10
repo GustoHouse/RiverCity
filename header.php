@@ -16,7 +16,7 @@
     
 	<header>
 		<div class="time-bar">
-			<p class="time"></p>
+			<p class="time"></p><a href="">All Hours</a>
 		</div><!-- end .hour-bar -->
 		<div class="nav">
 			<a class="logo" href="/"><img src="images/logo.png"/></a>	
