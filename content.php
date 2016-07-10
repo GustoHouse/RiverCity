@@ -92,6 +92,10 @@
     </div>
 </div>
 
+
+<!-- OPEN CONTENT -->
+
+
 <div class="margin open-content">
     
     <div class="text">
@@ -104,6 +108,12 @@
     </div>
     
 </div>
+
+
+
+
+
+<!-- SPLIT CONTENT -->
 
 <div class="margin split-content">
 
@@ -143,27 +153,5 @@
     
 </div>
 
-<div class="margin three-column-cta">
-	<div class="container">
-		<a class="box box-tan box-1" href="#">
-			<span class="sub-text">Something Here</span>
-			<h2 class="main-title">This is a title box</h2>
-			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-			<img src="images/arrow-right.svg"/>
-		</a>
-		<a class="box box-dark-tan box-2" href="#">
-			<span class="sub-text">Something Here</span>
-			<h2 class="main-title">This is a title box</h2>
-			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-			<img src="images/arrow-right.svg"/>
-		</a>
-		<a class="box box-red box-3" href="#">
-			<span class="sub-text">Something Here</span>
-			<h2 class="main-title">This is a title box</h2>
-			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-			<img src="images/arrow-right.svg"/>
-		</a>
-	</div>
-</div><!-- end .three-column-cta -->
 
 <?php include('footer.php'); ?>
