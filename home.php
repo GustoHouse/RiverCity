@@ -247,6 +247,16 @@
 <div class="divider"><img src="images/divider.jpg" /></div>
 
 
+<div class="margin logo-grid">
+	<span class="title">Our Selected<strong>Flooring Partners</strong></span>
+	<a href="http://www.mybonahome.com/contractor.html?location=40299&all=true" target="_blank"><img src="images/Logo-Craftsman.jpg"/></a>
+	<a href="http://hbal.com/signature-events/homearama/" target="_blank"><img src="images/hbal.jpg"/></a>
+	<a href="http://woodfloors.org/" target="_blank"><img src="images/InstallSandFinish_color___Selected-e1370460625677.jpg"/></a>
+	<a href="http://www.bbb.org/KY/business-reviews/floor-laying-refinishing-and-resurfacing/rivercity-flooring-inc-in-louisville-ky-1000400/" target="_blank"><img src="images/bbb.jpg"/></a>
+	<a href="http://www.angieslist.com/companylist/us/ky/louisville/river-city-flooring-inc-reviews-437134.aspx?cid=ssabadge" target="_blank"><img src="images/angie.png"/></a>
+	<a href="http://www.jtownchamber.com/directory.aspx?action=Listing&value=3508&searchID=154333" target="_blank"><img src="images/JtownChamber1.jpg"/></a>
+</div>
+
 
 
 <?php include('footer.php'); ?>

@@ -571,14 +571,15 @@ a.fc-product::before {
 }
 
 .logo-grid a img {
-	width: 100%;
-	max-width: 120px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate3d(-50%,-50%,0);
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+    width: auto;
+    max-width: 120px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%,-50%,0);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    max-height: 80px;
 }
 
 @media (min-width: 768px) {
