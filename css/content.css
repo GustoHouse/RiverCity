@@ -14,6 +14,22 @@
     text-decoration: none;
 }
 
+a.fc-product:before,
+a.fc-product::before {
+    content:'';
+    display:block;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:50%;
+    z-index:1;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    opacity:.4;
+}
+
 .fc-name {
     width: 30%;
     height: 100%;
@@ -270,9 +286,11 @@
     background-position: bottom;
 }
 
-<<<<<<< HEAD
-/* THREE COLUMN CTA CONTENT */
-=======
+.split-content p a{
+    color:#fff;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 960px) {
     
     .split-content .left.text,
@@ -312,7 +330,6 @@
 
 
 /* THREE COLUMN */
->>>>>>> origin/master
 
 .three-column-cta {
 	background-image: url(../images/three-column-cta-bg.jpg);
@@ -540,3 +557,36 @@
     
 }
 
+
+
+/* DIVIDER */
+
+.divider{
+    float:left;
+    width:100%;
+    height:20px;
+    display:block;
+    text-align: center;
+    position: relative;
+    margin:15px 0;
+}
+
+.divider img{
+    display:inline-block;
+    height:20px;
+    width:auto;
+    position: relative;
+    z-index: 2;
+}
+
+.divider:before,
+.divider::before {
+    content:'';
+    width:20%;
+    height:2px;
+    background:#ddd;
+    position:absolute;
+    left:40%;
+    top:9px;
+    z-index: 1;
+}
