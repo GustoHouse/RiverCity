@@ -213,10 +213,6 @@
     color:#8c4035;
 }
 
-
-
-
-
 /* SPLIT CONTENT */
 
 .split-content .left, 
@@ -270,9 +266,8 @@
     background-position: bottom;
 }
 
-<<<<<<< HEAD
 /* THREE COLUMN CTA CONTENT */
-=======
+
 @media screen and (max-width: 960px) {
     
     .split-content .left.text,
@@ -298,21 +293,7 @@
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* THREE COLUMN */
->>>>>>> origin/master
 
 .three-column-cta {
 	background-image: url(../images/three-column-cta-bg.jpg);
@@ -540,3 +521,50 @@
     
 }
 
+/*** Cat Runner ***/
+
+.cat-runner {
+	background-size: cover;
+	height: 100px;
+}
+
+/*** Logo Grid ***/ 
+
+.logo-grid span {
+	display: block;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+.logo-grid span strong {
+	display: block;
+}
+
+.logo-grid a {
+  width: 50%;
+  height: 125px;
+  float: left;
+  position: relative;
+  border: 2px solid #867872;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
+.logo-grid a img {
+	width: 100%;
+	max-width: 120px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate3d(-50%,-50%,0);
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+@media (min-width: 768px) {
+	
+	.logo-grid a {
+		width: 25%;
+	}
+	
+}
